@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		243A731B2B292A48745F3015 /* Pods_ShanliUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1105824346A578C2026B2E2A /* Pods_ShanliUITests.framework */; };
+		2748DEB82081CA7D00C4ACA2 /* SportsChoiceVC-result-01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748DEB72081CA7D00C4ACA2 /* SportsChoiceVC-result-01.swift */; };
+		2748DEBA2081CA9B00C4ACA2 /* SportsChoiceVC-result-02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748DEB92081CA9B00C4ACA2 /* SportsChoiceVC-result-02.swift */; };
+		2748DEBC20826E3000C4ACA2 /* CousinsHomeVC-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748DEBB20826E3000C4ACA2 /* CousinsHomeVC-2.swift */; };
+		2748DEBE2082730900C4ACA2 /* CousinsHomeVC-result-01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2748DEBD2082730900C4ACA2 /* CousinsHomeVC-result-01.swift */; };
+		275BD9CC206F437C003D3FA9 /* GirlsOnlySchoolVC-result-01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275BD9CB206F437C003D3FA9 /* GirlsOnlySchoolVC-result-01.swift */; };
+		275BD9CE206F4972003D3FA9 /* GirlsOnlySchoolVC-result-02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275BD9CD206F4972003D3FA9 /* GirlsOnlySchoolVC-result-02.swift */; };
+		275BD9D0206F4A98003D3FA9 /* GirlsOnlySchoolVC-result-03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275BD9CF206F4A98003D3FA9 /* GirlsOnlySchoolVC-result-03.swift */; };
+		275BD9D220700D03003D3FA9 /* MathProblemVC-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275BD9D120700D03003D3FA9 /* MathProblemVC-2.swift */; };
+		275BD9D42070448F003D3FA9 /* MathProblemVC-result-01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275BD9D32070448F003D3FA9 /* MathProblemVC-result-01.swift */; };
+		277DA88020771213000604B8 /* MathProblemVC-result-02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277DA87F20771213000604B8 /* MathProblemVC-result-02.swift */; };
+		277DA88220773C46000604B8 /* SportsChoiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277DA88120773C46000604B8 /* SportsChoiceVC.swift */; };
+		277DA88420773FB9000604B8 /* SportsChoiceVC-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277DA88320773FB9000604B8 /* SportsChoiceVC-2.swift */; };
+		277DA88620774AF1000604B8 /* MathProblemVC-result-03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277DA88520774AF0000604B8 /* MathProblemVC-result-03.swift */; };
+		277DA88820774D54000604B8 /* MathProblemVC-result-04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277DA88720774D54000604B8 /* MathProblemVC-result-04.swift */; };
+		277DA88A20775F91000604B8 /* CousinsHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277DA88920775F91000604B8 /* CousinsHomeVC.swift */; };
+		277DA88C2078A7E9000604B8 /* gif-tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277DA88B2078A7E9000604B8 /* gif-tool.swift */; };
+		277DA88E2078A8A6000604B8 /* gif-test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277DA88D2078A8A6000604B8 /* gif-test.swift */; };
+		277DA8902078A9CF000604B8 /* simpsons-playground.gif in Resources */ = {isa = PBXBuildFile; fileRef = 277DA88F2078A9CB000604B8 /* simpsons-playground.gif */; };
+		277DA892207937DD000604B8 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277DA891207937DC000604B8 /* loginVC.swift */; };
+		277DA894207937F6000604B8 /* registrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277DA893207937F6000604B8 /* registrationVC.swift */; };
+		277DA8962079525B000604B8 /* TextToSpeechDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277DA8952079525A000604B8 /* TextToSpeechDemoVC.swift */; };
+		277DA89920795428000604B8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277DA89820795428000604B8 /* AVFoundation.framework */; };
+		27EF63B82064D34E004801E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF63B72064D34E004801E9 /* AppDelegate.swift */; };
+		27EF63BA2064D34E004801E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF63B92064D34E004801E9 /* ViewController.swift */; };
+		27EF63BD2064D34E004801E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27EF63BB2064D34E004801E9 /* Main.storyboard */; };
+		27EF63BF2064D34E004801E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27EF63BE2064D34E004801E9 /* Assets.xcassets */; };
+		27EF63C22064D34E004801E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27EF63C02064D34E004801E9 /* LaunchScreen.storyboard */; };
+		27EF63CD2064D34E004801E9 /* ShanliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF63CC2064D34E004801E9 /* ShanliTests.swift */; };
+		27EF63D82064D34E004801E9 /* ShanliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF63D72064D34E004801E9 /* ShanliUITests.swift */; };
+		27EF63E820661AE8004801E9 /* BoysOrGirlsToyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF63E720661AE8004801E9 /* BoysOrGirlsToyVC.swift */; };
+		27EF63EA20661B64004801E9 /* GoToSchoolAt6VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF63E920661B64004801E9 /* GoToSchoolAt6VC.swift */; };
+		27EF63EC20661F19004801E9 /* GirlsOnlySchoolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF63EB20661F19004801E9 /* GirlsOnlySchoolVC.swift */; };
+		27EF63EE2066433A004801E9 /* BoysOrGirlsToyVC-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF63ED2066433A004801E9 /* BoysOrGirlsToyVC-2.swift */; };
+		27EF63F02066E8D7004801E9 /* GirlsOnlySchoolVC-2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF63EF2066E8D7004801E9 /* GirlsOnlySchoolVC-2.swift */; };
+		27EF63F22066FE04004801E9 /* BoysOrGirlsToyVC-result-01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF63F12066FE04004801E9 /* BoysOrGirlsToyVC-result-01.swift */; };
+		27EF63F42066FE40004801E9 /* BoysOrGirlsToyVC-result-02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF63F32066FE40004801E9 /* BoysOrGirlsToyVC-result-02.swift */; };
+		27EF63F62067016F004801E9 /* BoysOrGirlsToyVC-result-03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF63F52067016F004801E9 /* BoysOrGirlsToyVC-result-03.swift */; };
+		27EF63F820670C1E004801E9 /* MathProblemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EF63F720670C1E004801E9 /* MathProblemVC.swift */; };
+		4A76AB0348660CA8EA1C8F61 /* Pods_ShanliTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B54E968B837A56CAA46705 /* Pods_ShanliTests.framework */; };
+		DF3F298B0930E940297F47D7 /* Pods_Shanli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0918499AD8ECA01D05B7725E /* Pods_Shanli.framework */; };
+		E6EE2BED208984E500F51356 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6EE2BEC208984E400F51356 /* GoogleService-Info.plist */; };
+		E6EE2BF02089874B00F51356 /* header.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EE2BEF2089874B00F51356 /* header.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27EF63C92064D34E004801E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27EF63AC2064D34E004801E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27EF63B32064D34E004801E9;
+			remoteInfo = Shanli;
+		};
+		27EF63D42064D34E004801E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27EF63AC2064D34E004801E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27EF63B32064D34E004801E9;
+			remoteInfo = Shanli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D908239735FF7DB189E70A /* Pods-ShanliUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanliUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShanliUITests/Pods-ShanliUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0918499AD8ECA01D05B7725E /* Pods_Shanli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shanli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1105824346A578C2026B2E2A /* Pods_ShanliUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShanliUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2748DEB72081CA7D00C4ACA2 /* SportsChoiceVC-result-01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SportsChoiceVC-result-01.swift"; sourceTree = "<group>"; };
+		2748DEB92081CA9B00C4ACA2 /* SportsChoiceVC-result-02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SportsChoiceVC-result-02.swift"; sourceTree = "<group>"; };
+		2748DEBB20826E3000C4ACA2 /* CousinsHomeVC-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CousinsHomeVC-2.swift"; sourceTree = "<group>"; };
+		2748DEBD2082730900C4ACA2 /* CousinsHomeVC-result-01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CousinsHomeVC-result-01.swift"; sourceTree = "<group>"; };
+		275BD9CB206F437C003D3FA9 /* GirlsOnlySchoolVC-result-01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GirlsOnlySchoolVC-result-01.swift"; sourceTree = "<group>"; };
+		275BD9CD206F4972003D3FA9 /* GirlsOnlySchoolVC-result-02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GirlsOnlySchoolVC-result-02.swift"; sourceTree = "<group>"; };
+		275BD9CF206F4A98003D3FA9 /* GirlsOnlySchoolVC-result-03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GirlsOnlySchoolVC-result-03.swift"; sourceTree = "<group>"; };
+		275BD9D120700D03003D3FA9 /* MathProblemVC-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MathProblemVC-2.swift"; sourceTree = "<group>"; };
+		275BD9D32070448F003D3FA9 /* MathProblemVC-result-01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MathProblemVC-result-01.swift"; sourceTree = "<group>"; };
+		277DA87F20771213000604B8 /* MathProblemVC-result-02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MathProblemVC-result-02.swift"; sourceTree = "<group>"; };
+		277DA88120773C46000604B8 /* SportsChoiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsChoiceVC.swift; sourceTree = "<group>"; };
+		277DA88320773FB9000604B8 /* SportsChoiceVC-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SportsChoiceVC-2.swift"; sourceTree = "<group>"; };
+		277DA88520774AF0000604B8 /* MathProblemVC-result-03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MathProblemVC-result-03.swift"; sourceTree = "<group>"; };
+		277DA88720774D54000604B8 /* MathProblemVC-result-04.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MathProblemVC-result-04.swift"; sourceTree = "<group>"; };
+		277DA88920775F91000604B8 /* CousinsHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CousinsHomeVC.swift; sourceTree = "<group>"; };
+		277DA88B2078A7E9000604B8 /* gif-tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "gif-tool.swift"; sourceTree = "<group>"; };
+		277DA88D2078A8A6000604B8 /* gif-test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "gif-test.swift"; sourceTree = "<group>"; };
+		277DA88F2078A9CB000604B8 /* simpsons-playground.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "simpsons-playground.gif"; sourceTree = "<group>"; };
+		277DA891207937DC000604B8 /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		277DA893207937F6000604B8 /* registrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = registrationVC.swift; sourceTree = "<group>"; };
+		277DA8952079525A000604B8 /* TextToSpeechDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechDemoVC.swift; sourceTree = "<group>"; };
+		277DA89820795428000604B8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		27EF63B42064D34E004801E9 /* Shanli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shanli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27EF63B72064D34E004801E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27EF63B92064D34E004801E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27EF63BC2064D34E004801E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27EF63BE2064D34E004801E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27EF63C12064D34E004801E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27EF63C32064D34E004801E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EF63C82064D34E004801E9 /* ShanliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShanliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27EF63CC2064D34E004801E9 /* ShanliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShanliTests.swift; sourceTree = "<group>"; };
+		27EF63CE2064D34E004801E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EF63D32064D34E004801E9 /* ShanliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShanliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27EF63D72064D34E004801E9 /* ShanliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShanliUITests.swift; sourceTree = "<group>"; };
+		27EF63D92064D34E004801E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EF63E720661AE8004801E9 /* BoysOrGirlsToyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoysOrGirlsToyVC.swift; sourceTree = "<group>"; };
+		27EF63E920661B64004801E9 /* GoToSchoolAt6VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoToSchoolAt6VC.swift; sourceTree = "<group>"; };
+		27EF63EB20661F19004801E9 /* GirlsOnlySchoolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GirlsOnlySchoolVC.swift; sourceTree = "<group>"; };
+		27EF63ED2066433A004801E9 /* BoysOrGirlsToyVC-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BoysOrGirlsToyVC-2.swift"; sourceTree = "<group>"; };
+		27EF63EF2066E8D7004801E9 /* GirlsOnlySchoolVC-2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GirlsOnlySchoolVC-2.swift"; sourceTree = "<group>"; };
+		27EF63F12066FE04004801E9 /* BoysOrGirlsToyVC-result-01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BoysOrGirlsToyVC-result-01.swift"; sourceTree = "<group>"; };
+		27EF63F32066FE40004801E9 /* BoysOrGirlsToyVC-result-02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BoysOrGirlsToyVC-result-02.swift"; sourceTree = "<group>"; };
+		27EF63F52067016F004801E9 /* BoysOrGirlsToyVC-result-03.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BoysOrGirlsToyVC-result-03.swift"; sourceTree = "<group>"; };
+		27EF63F720670C1E004801E9 /* MathProblemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathProblemVC.swift; sourceTree = "<group>"; };
+		37129B57D556E329596D8BCB /* Pods-ShanliUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanliUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShanliUITests/Pods-ShanliUITests.release.xcconfig"; sourceTree = "<group>"; };
+		54BB3C4178FCA01C589910D5 /* Pods-ShanliTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanliTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShanliTests/Pods-ShanliTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90F66AC6099DF57EDDDE8C0C /* Pods-ShanliTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShanliTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShanliTests/Pods-ShanliTests.release.xcconfig"; sourceTree = "<group>"; };
+		9F4F61A1FCB9EA114097958F /* Pods-Shanli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shanli.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shanli/Pods-Shanli.release.xcconfig"; sourceTree = "<group>"; };
+		D6B54E968B837A56CAA46705 /* Pods_ShanliTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShanliTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4C4A039158A4692997CD3B /* Pods-Shanli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shanli.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shanli/Pods-Shanli.debug.xcconfig"; sourceTree = "<group>"; };
+		E6EE2BEC208984E400F51356 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E6EE2BEE2089874B00F51356 /* Shanli-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shanli-Bridging-Header.h"; sourceTree = "<group>"; };
+		E6EE2BEF2089874B00F51356 /* header.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = header.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27EF63B12064D34E004801E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277DA89920795428000604B8 /* AVFoundation.framework in Frameworks */,
+				DF3F298B0930E940297F47D7 /* Pods_Shanli.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EF63C52064D34E004801E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A76AB0348660CA8EA1C8F61 /* Pods_ShanliTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EF63D02064D34E004801E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				243A731B2B292A48745F3015 /* Pods_ShanliUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277DA89720795427000604B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				277DA89820795428000604B8 /* AVFoundation.framework */,
+				0918499AD8ECA01D05B7725E /* Pods_Shanli.framework */,
+				D6B54E968B837A56CAA46705 /* Pods_ShanliTests.framework */,
+				1105824346A578C2026B2E2A /* Pods_ShanliUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27EF63AB2064D34D004801E9 = {
+			isa = PBXGroup;
+			children = (
+				27EF63B62064D34E004801E9 /* Shanli */,
+				27EF63CB2064D34E004801E9 /* ShanliTests */,
+				27EF63D62064D34E004801E9 /* ShanliUITests */,
+				27EF63B52064D34E004801E9 /* Products */,
+				277DA89720795427000604B8 /* Frameworks */,
+				C7F11BC5C3DECC3AF898C40A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		27EF63B52064D34E004801E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27EF63B42064D34E004801E9 /* Shanli.app */,
+				27EF63C82064D34E004801E9 /* ShanliTests.xctest */,
+				27EF63D32064D34E004801E9 /* ShanliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27EF63B62064D34E004801E9 /* Shanli */ = {
+			isa = PBXGroup;
+			children = (
+				277DA891207937DC000604B8 /* loginVC.swift */,
+				277DA893207937F6000604B8 /* registrationVC.swift */,
+				27EF63B72064D34E004801E9 /* AppDelegate.swift */,
+				277DA88B2078A7E9000604B8 /* gif-tool.swift */,
+				277DA88D2078A8A6000604B8 /* gif-test.swift */,
+				277DA88F2078A9CB000604B8 /* simpsons-playground.gif */,
+				27EF63B92064D34E004801E9 /* ViewController.swift */,
+				27EF63E920661B64004801E9 /* GoToSchoolAt6VC.swift */,
+				27EF63E720661AE8004801E9 /* BoysOrGirlsToyVC.swift */,
+				27EF63ED2066433A004801E9 /* BoysOrGirlsToyVC-2.swift */,
+				27EF63F12066FE04004801E9 /* BoysOrGirlsToyVC-result-01.swift */,
+				27EF63F32066FE40004801E9 /* BoysOrGirlsToyVC-result-02.swift */,
+				27EF63F52067016F004801E9 /* BoysOrGirlsToyVC-result-03.swift */,
+				27EF63EB20661F19004801E9 /* GirlsOnlySchoolVC.swift */,
+				27EF63EF2066E8D7004801E9 /* GirlsOnlySchoolVC-2.swift */,
+				275BD9CB206F437C003D3FA9 /* GirlsOnlySchoolVC-result-01.swift */,
+				275BD9CD206F4972003D3FA9 /* GirlsOnlySchoolVC-result-02.swift */,
+				275BD9CF206F4A98003D3FA9 /* GirlsOnlySchoolVC-result-03.swift */,
+				27EF63F720670C1E004801E9 /* MathProblemVC.swift */,
+				275BD9D120700D03003D3FA9 /* MathProblemVC-2.swift */,
+				275BD9D32070448F003D3FA9 /* MathProblemVC-result-01.swift */,
+				277DA87F20771213000604B8 /* MathProblemVC-result-02.swift */,
+				277DA88520774AF0000604B8 /* MathProblemVC-result-03.swift */,
+				277DA88720774D54000604B8 /* MathProblemVC-result-04.swift */,
+				277DA88120773C46000604B8 /* SportsChoiceVC.swift */,
+				277DA88320773FB9000604B8 /* SportsChoiceVC-2.swift */,
+				2748DEB72081CA7D00C4ACA2 /* SportsChoiceVC-result-01.swift */,
+				2748DEB92081CA9B00C4ACA2 /* SportsChoiceVC-result-02.swift */,
+				277DA88920775F91000604B8 /* CousinsHomeVC.swift */,
+				2748DEBB20826E3000C4ACA2 /* CousinsHomeVC-2.swift */,
+				2748DEBD2082730900C4ACA2 /* CousinsHomeVC-result-01.swift */,
+				277DA8952079525A000604B8 /* TextToSpeechDemoVC.swift */,
+				27EF63BB2064D34E004801E9 /* Main.storyboard */,
+				27EF63BE2064D34E004801E9 /* Assets.xcassets */,
+				27EF63C02064D34E004801E9 /* LaunchScreen.storyboard */,
+				27EF63C32064D34E004801E9 /* Info.plist */,
+				E6EE2BEC208984E400F51356 /* GoogleService-Info.plist */,
+				E6EE2BEF2089874B00F51356 /* header.m */,
+				E6EE2BEE2089874B00F51356 /* Shanli-Bridging-Header.h */,
+			);
+			path = Shanli;
+			sourceTree = "<group>";
+		};
+		27EF63CB2064D34E004801E9 /* ShanliTests */ = {
+			isa = PBXGroup;
+			children = (
+				27EF63CC2064D34E004801E9 /* ShanliTests.swift */,
+				27EF63CE2064D34E004801E9 /* Info.plist */,
+			);
+			path = ShanliTests;
+			sourceTree = "<group>";
+		};
+		27EF63D62064D34E004801E9 /* ShanliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27EF63D72064D34E004801E9 /* ShanliUITests.swift */,
+				27EF63D92064D34E004801E9 /* Info.plist */,
+			);
+			path = ShanliUITests;
+			sourceTree = "<group>";
+		};
+		C7F11BC5C3DECC3AF898C40A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC4C4A039158A4692997CD3B /* Pods-Shanli.debug.xcconfig */,
+				9F4F61A1FCB9EA114097958F /* Pods-Shanli.release.xcconfig */,
+				54BB3C4178FCA01C589910D5 /* Pods-ShanliTests.debug.xcconfig */,
+				90F66AC6099DF57EDDDE8C0C /* Pods-ShanliTests.release.xcconfig */,
+				07D908239735FF7DB189E70A /* Pods-ShanliUITests.debug.xcconfig */,
+				37129B57D556E329596D8BCB /* Pods-ShanliUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27EF63B32064D34E004801E9 /* Shanli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27EF63DC2064D34E004801E9 /* Build configuration list for PBXNativeTarget "Shanli" */;
+			buildPhases = (
+				BA29F55384718DED603C1328 /* [CP] Check Pods Manifest.lock */,
+				27EF63B02064D34E004801E9 /* Sources */,
+				27EF63B12064D34E004801E9 /* Frameworks */,
+				27EF63B22064D34E004801E9 /* Resources */,
+				49A17FEAA74987C2E853A528 /* [CP] Embed Pods Frameworks */,
+				759441FBC6452EB724CDA3D0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shanli;
+			productName = Shanli;
+			productReference = 27EF63B42064D34E004801E9 /* Shanli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27EF63C72064D34E004801E9 /* ShanliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27EF63DF2064D34E004801E9 /* Build configuration list for PBXNativeTarget "ShanliTests" */;
+			buildPhases = (
+				5BAF2DA8362F443C40A6C51C /* [CP] Check Pods Manifest.lock */,
+				27EF63C42064D34E004801E9 /* Sources */,
+				27EF63C52064D34E004801E9 /* Frameworks */,
+				27EF63C62064D34E004801E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27EF63CA2064D34E004801E9 /* PBXTargetDependency */,
+			);
+			name = ShanliTests;
+			productName = ShanliTests;
+			productReference = 27EF63C82064D34E004801E9 /* ShanliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27EF63D22064D34E004801E9 /* ShanliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27EF63E22064D34E004801E9 /* Build configuration list for PBXNativeTarget "ShanliUITests" */;
+			buildPhases = (
+				F50FE494CE9F6C7DAD59FFD8 /* [CP] Check Pods Manifest.lock */,
+				27EF63CF2064D34E004801E9 /* Sources */,
+				27EF63D02064D34E004801E9 /* Frameworks */,
+				27EF63D12064D34E004801E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27EF63D52064D34E004801E9 /* PBXTargetDependency */,
+			);
+			name = ShanliUITests;
+			productName = ShanliUITests;
+			productReference = 27EF63D32064D34E004801E9 /* ShanliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27EF63AC2064D34E004801E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					yes,
+				);
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Li Zhaotian";
+				TargetAttributes = {
+					27EF63B32064D34E004801E9 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+					};
+					27EF63C72064D34E004801E9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27EF63B32064D34E004801E9;
+					};
+					27EF63D22064D34E004801E9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 27EF63B32064D34E004801E9;
+					};
+				};
+			};
+			buildConfigurationList = 27EF63AF2064D34E004801E9 /* Build configuration list for PBXProject "Shanli" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27EF63AB2064D34D004801E9;
+			productRefGroup = 27EF63B52064D34E004801E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27EF63B32064D34E004801E9 /* Shanli */,
+				27EF63C72064D34E004801E9 /* ShanliTests */,
+				27EF63D22064D34E004801E9 /* ShanliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27EF63B22064D34E004801E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EF63C22064D34E004801E9 /* LaunchScreen.storyboard in Resources */,
+				277DA8902078A9CF000604B8 /* simpsons-playground.gif in Resources */,
+				E6EE2BED208984E500F51356 /* GoogleService-Info.plist in Resources */,
+				27EF63BF2064D34E004801E9 /* Assets.xcassets in Resources */,
+				27EF63BD2064D34E004801E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EF63C62064D34E004801E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EF63D12064D34E004801E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49A17FEAA74987C2E853A528 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shanli/Pods-Shanli-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shanli/Pods-Shanli-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BAF2DA8362F443C40A6C51C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShanliTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		759441FBC6452EB724CDA3D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shanli/Pods-Shanli-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shanli/Pods-Shanli-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA29F55384718DED603C1328 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shanli-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F50FE494CE9F6C7DAD59FFD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShanliUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27EF63B02064D34E004801E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EF63F820670C1E004801E9 /* MathProblemVC.swift in Sources */,
+				27EF63F62067016F004801E9 /* BoysOrGirlsToyVC-result-03.swift in Sources */,
+				277DA88220773C46000604B8 /* SportsChoiceVC.swift in Sources */,
+				27EF63BA2064D34E004801E9 /* ViewController.swift in Sources */,
+				2748DEBA2081CA9B00C4ACA2 /* SportsChoiceVC-result-02.swift in Sources */,
+				277DA8962079525B000604B8 /* TextToSpeechDemoVC.swift in Sources */,
+				277DA88020771213000604B8 /* MathProblemVC-result-02.swift in Sources */,
+				277DA88420773FB9000604B8 /* SportsChoiceVC-2.swift in Sources */,
+				27EF63EA20661B64004801E9 /* GoToSchoolAt6VC.swift in Sources */,
+				275BD9D0206F4A98003D3FA9 /* GirlsOnlySchoolVC-result-03.swift in Sources */,
+				27EF63F22066FE04004801E9 /* BoysOrGirlsToyVC-result-01.swift in Sources */,
+				275BD9D42070448F003D3FA9 /* MathProblemVC-result-01.swift in Sources */,
+				E6EE2BF02089874B00F51356 /* header.m in Sources */,
+				275BD9CE206F4972003D3FA9 /* GirlsOnlySchoolVC-result-02.swift in Sources */,
+				275BD9D220700D03003D3FA9 /* MathProblemVC-2.swift in Sources */,
+				2748DEBE2082730900C4ACA2 /* CousinsHomeVC-result-01.swift in Sources */,
+				277DA88E2078A8A6000604B8 /* gif-test.swift in Sources */,
+				27EF63F02066E8D7004801E9 /* GirlsOnlySchoolVC-2.swift in Sources */,
+				275BD9CC206F437C003D3FA9 /* GirlsOnlySchoolVC-result-01.swift in Sources */,
+				277DA88A20775F91000604B8 /* CousinsHomeVC.swift in Sources */,
+				27EF63EE2066433A004801E9 /* BoysOrGirlsToyVC-2.swift in Sources */,
+				277DA88C2078A7E9000604B8 /* gif-tool.swift in Sources */,
+				27EF63B82064D34E004801E9 /* AppDelegate.swift in Sources */,
+				277DA88820774D54000604B8 /* MathProblemVC-result-04.swift in Sources */,
+				277DA88620774AF1000604B8 /* MathProblemVC-result-03.swift in Sources */,
+				2748DEB82081CA7D00C4ACA2 /* SportsChoiceVC-result-01.swift in Sources */,
+				277DA894207937F6000604B8 /* registrationVC.swift in Sources */,
+				277DA892207937DD000604B8 /* loginVC.swift in Sources */,
+				27EF63E820661AE8004801E9 /* BoysOrGirlsToyVC.swift in Sources */,
+				2748DEBC20826E3000C4ACA2 /* CousinsHomeVC-2.swift in Sources */,
+				27EF63F42066FE40004801E9 /* BoysOrGirlsToyVC-result-02.swift in Sources */,
+				27EF63EC20661F19004801E9 /* GirlsOnlySchoolVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EF63C42064D34E004801E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EF63CD2064D34E004801E9 /* ShanliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27EF63CF2064D34E004801E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EF63D82064D34E004801E9 /* ShanliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27EF63CA2064D34E004801E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27EF63B32064D34E004801E9 /* Shanli */;
+			targetProxy = 27EF63C92064D34E004801E9 /* PBXContainerItemProxy */;
+		};
+		27EF63D52064D34E004801E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27EF63B32064D34E004801E9 /* Shanli */;
+			targetProxy = 27EF63D42064D34E004801E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27EF63BB2064D34E004801E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27EF63BC2064D34E004801E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27EF63C02064D34E004801E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27EF63C12064D34E004801E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27EF63DA2064D34E004801E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27EF63DB2064D34E004801E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27EF63DD2064D34E004801E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4C4A039158A4692997CD3B /* Pods-Shanli.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H42843UWD;
+				INFOPLIST_FILE = Shanli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iostest.Shanli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shanli/Shanli-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27EF63DE2064D34E004801E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F4F61A1FCB9EA114097958F /* Pods-Shanli.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H42843UWD;
+				INFOPLIST_FILE = Shanli/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iostest.Shanli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shanli/Shanli-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27EF63E02064D34E004801E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54BB3C4178FCA01C589910D5 /* Pods-ShanliTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShanliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iostest.ShanliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shanli.app/Shanli";
+			};
+			name = Debug;
+		};
+		27EF63E12064D34E004801E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F66AC6099DF57EDDDE8C0C /* Pods-ShanliTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShanliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iostest.ShanliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shanli.app/Shanli";
+			};
+			name = Release;
+		};
+		27EF63E32064D34E004801E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D908239735FF7DB189E70A /* Pods-ShanliUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShanliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iostest.ShanliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shanli;
+			};
+			name = Debug;
+		};
+		27EF63E42064D34E004801E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37129B57D556E329596D8BCB /* Pods-ShanliUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ShanliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iostest.ShanliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shanli;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27EF63AF2064D34E004801E9 /* Build configuration list for PBXProject "Shanli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EF63DA2064D34E004801E9 /* Debug */,
+				27EF63DB2064D34E004801E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27EF63DC2064D34E004801E9 /* Build configuration list for PBXNativeTarget "Shanli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EF63DD2064D34E004801E9 /* Debug */,
+				27EF63DE2064D34E004801E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27EF63DF2064D34E004801E9 /* Build configuration list for PBXNativeTarget "ShanliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EF63E02064D34E004801E9 /* Debug */,
+				27EF63E12064D34E004801E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27EF63E22064D34E004801E9 /* Build configuration list for PBXNativeTarget "ShanliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EF63E32064D34E004801E9 /* Debug */,
+				27EF63E42064D34E004801E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27EF63AC2064D34E004801E9 /* Project object */;
+}
